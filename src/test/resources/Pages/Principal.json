@@ -1,0 +1,70 @@
+{
+  "Usuario": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@formcontrolname='username']"
+  },
+
+  "Password": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@formcontrolname='password']"
+  },
+
+  "user": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@data-test=\"username\"]"
+  },
+
+  "pass": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input [@data-test=\"password\"]"
+  },
+
+  "login": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input [@data-test=\"login-button\"]"
+  },
+
+  "Product": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button [@data-test=\"add-to-cart-sauce-labs-backpack\"]"
+  },
+
+  "Carrito": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a [@class=\"shopping_cart_link\"]"
+  },
+
+  "Checkout": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button [@data-test=\"checkout\"]"
+  },
+  "FirstnameCheck": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@data-test=\"firstName\"]"
+  },
+
+  "LastnameCheck": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@data-test=\"lastName\"]"
+  },
+
+  "PosCode": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@data-test=\"postalCode\"]"
+  },
+
+  "ContiCheck": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@data-test=\"continue\"]"
+  },
+
+  "FinishCheck": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button [@data-test=\"finish\"]"
+  },
+
+  "BackHome": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button [@data-test=\"back-to-products\"]"
+  }
+}
